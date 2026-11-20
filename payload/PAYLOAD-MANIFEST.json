@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "game_version": "0.0.15",
+  "files": [
+    {
+      "path": "7zr.exe",
+      "bytes": 931328,
+      "sha256": "fe66e92b57b88a80585d50e194572b33edde4a4af8a0d33e83801f9fa37e8a4e"
+    },
+    {
+      "path": "default.xex",
+      "bytes": 2129920,
+      "sha256": "fc389d132b474eca8085ca91d62f0962a5e61758255c766be68745ed57ae8310"
+    },
+    {
+      "path": "GameSource.zip",
+      "bytes": 542532,
+      "sha256": "f062573bba45db011e8f1f7d2ebf9986c2fe4968daf05bd4df86efad40cb2009"
+    },
+    {
+      "path": "HELPER-PROVENANCE.json",
+      "bytes": 569,
+      "sha256": "c115458a3c2330932ac3e9cab3974b2f18ceeee9431094d42e0775d873fb3a10"
+    },
+    {
+      "path": "LZMA-SDK-26.06.7z",
+      "bytes": 1784871,
+      "sha256": "1d9da340870b12712e9068be178a4436fbad785486b62aed6e2aa88ea1e3bb65"
+    },
+    {
+      "path": "LZMA-SDK-NOTICE.txt",
+      "bytes": 15835,
+      "sha256": "c01275a6f589734943fae41acff8ed833fdbd7fffb7b3b22d46af9eec00e8138"
+    }
+  ],
+  "source_archive": "GameSource.zip",
+  "source_archive_sha256": "f062573bba45db011e8f1f7d2ebf9986c2fe4968daf05bd4df86efad40cb2009",
+  "new_code_license": "GPL-3.0-only",
+  "original_xp_assets_bundled": false,
+  "compiler_required": false
+}

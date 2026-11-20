@@ -1,0 +1,21 @@
+Pinball Port licensing scope
+
+The newly written game implementation under src/rewrite, its tests under
+tests/rewrite, the portable Creator/builder under tools/portable, and the
+project launchers and build scripts are licensed under GNU GPL version 3
+only (SPDX: GPL-3.0-only), selected by the project owner on 2026-11-17.
+The full license text is in LICENSE.
+
+Original XP game assets and cover art are excluded from this source and
+Creator distribution. They retain separate rights and are not relicensed
+by this grant. The Creator obtains or imports the required assets
+separately for local game creation.
+
+External SDK/compiler/runtime components retain their original licenses.
+Their retained notices are under tools/portable/runtime-notices and are
+copied into created game folders. The bundled archive reader has its
+notice, source archive and provenance under payload/.
+
+No original Pinball implementation is compiled into the rewritten game.
+Source-derived behavior and data-format observations informed the new code;
+this project does not claim a legally verified clean-room process.

@@ -1,0 +1,36 @@
+# Local build/cache/output files
+__pycache__/
+*.py[cod]
+work/
+outputs/
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Testing/
+.vs/
+*.user
+*.suo
+.create/
+downloads/
+cache/
+
+# Original game/reference assets are obtained separately.
+original/
+PINBALL.DAT
+PINBALL.EXE
+Pinball.exe
+PBMSG_FT.bin
+ASSET-PROVENANCE.json
+*.wav
+*.WAV
+*.mid
+*.MID
+
+# Local credentials and logs
+.env
+.env.*
+*.pem
+*.key
+*.log

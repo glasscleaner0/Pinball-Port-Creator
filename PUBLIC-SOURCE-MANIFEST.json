@@ -1,0 +1,857 @@
+{
+  "game_version": "0.0.15",
+  "creator_revision": 3,
+  "original_xp_assets_bundled": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 407,
+      "sha256": "fa6528e3dda76abe75b9af129513d90f8d1e03c1506d82f5235500047c63a466"
+    },
+    {
+      "path": "build.py",
+      "bytes": 238,
+      "sha256": "3bddbd13b2cbfc8d471d8cccc727fedac9e47098caff2b37246f1abc949312c2"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "bytes": 382,
+      "sha256": "922b830e625c5b3968053df4d0ef996c0df2c0d316b110faf2967ec11e081d16"
+    },
+    {
+      "path": "Create Game.pyw",
+      "bytes": 229,
+      "sha256": "3fb47ef3349ba984e4dd3709aa6932a73fc70cd2cbbd4edc93f01a54ca581aa3"
+    },
+    {
+      "path": "CREATOR-MANIFEST.json",
+      "bytes": 6564,
+      "sha256": "5bd79ccff928f18c1b80b6e244cb098daf857707cf58e37b976c029176cfe918"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "LICENSE-SCOPE.txt",
+      "bytes": 1092,
+      "sha256": "5ca96ae9e21d69322842c36779cf0fdba89311e9f45c99a5620e3df5db0c828d"
+    },
+    {
+      "path": "payload/7zr.exe",
+      "bytes": 931328,
+      "sha256": "fe66e92b57b88a80585d50e194572b33edde4a4af8a0d33e83801f9fa37e8a4e"
+    },
+    {
+      "path": "payload/default.xex",
+      "bytes": 2129920,
+      "sha256": "fc389d132b474eca8085ca91d62f0962a5e61758255c766be68745ed57ae8310"
+    },
+    {
+      "path": "payload/GameSource.zip",
+      "bytes": 542532,
+      "sha256": "f062573bba45db011e8f1f7d2ebf9986c2fe4968daf05bd4df86efad40cb2009"
+    },
+    {
+      "path": "payload/HELPER-PROVENANCE.json",
+      "bytes": 569,
+      "sha256": "c115458a3c2330932ac3e9cab3974b2f18ceeee9431094d42e0775d873fb3a10"
+    },
+    {
+      "path": "payload/LZMA-SDK-26.06.7z",
+      "bytes": 1784871,
+      "sha256": "1d9da340870b12712e9068be178a4436fbad785486b62aed6e2aa88ea1e3bb65"
+    },
+    {
+      "path": "payload/LZMA-SDK-NOTICE.txt",
+      "bytes": 15835,
+      "sha256": "c01275a6f589734943fae41acff8ed833fdbd7fffb7b3b22d46af9eec00e8138"
+    },
+    {
+      "path": "payload/PAYLOAD-MANIFEST.json",
+      "bytes": 1213,
+      "sha256": "6e92065f803acb9663cc7ea1421308c07f9023b845c1a651e1776b6200321b58"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3851,
+      "sha256": "a039a3dc6c0783271666a3184093581e0d48e0d62ab180aa29968d8a1633e615"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 2804,
+      "sha256": "64a057a7d0769a41964bbaa52908681303f87a0a24c39aeec479f07f3d3b3b8b"
+    },
+    {
+      "path": "RELEASE-NOTES.md",
+      "bytes": 670,
+      "sha256": "f45199d1906283c72f00524711b1fbee40f9ec86b42d4c58d61e1a53d17975c6"
+    },
+    {
+      "path": "src/rewrite/advanced_table_rules.cpp",
+      "bytes": 28314,
+      "sha256": "513338aba349939d06ed4fa328a2081e706a1943c7d4cbbcde8facc84d0dc3a0"
+    },
+    {
+      "path": "src/rewrite/advanced_table_rules.hpp",
+      "bytes": 7095,
+      "sha256": "4d9bf973a49522dcc52d50a41a03b9d07f43f44782ab10110a2558b938b4383b"
+    },
+    {
+      "path": "src/rewrite/audio_inspect.cpp",
+      "bytes": 2804,
+      "sha256": "d9ce8cbeb303a353c333972c3255848991656d429666586701c0a2016c21ea3e"
+    },
+    {
+      "path": "src/rewrite/ball_visual.cpp",
+      "bytes": 8355,
+      "sha256": "eed70262fc6c326c48842cf7d2481f62b9f0b62b88a0cef77dad1a53b4554cd9"
+    },
+    {
+      "path": "src/rewrite/ball_visual.hpp",
+      "bytes": 4414,
+      "sha256": "263e3d68b5d53be832bef5ed36bfac03c57b8d6c5346be7f3bb69fd19662ce22"
+    },
+    {
+      "path": "src/rewrite/bitmap.cpp",
+      "bytes": 4287,
+      "sha256": "fb3aec3ae0e644133403f99c2d89de5923cc8c19b0ee5a668b412ab07650ebb8"
+    },
+    {
+      "path": "src/rewrite/bitmap_font.cpp",
+      "bytes": 11243,
+      "sha256": "14e84744d12fd6ec2698627a579b6419f154b8680236371416b2b43a9ab6dcbc"
+    },
+    {
+      "path": "src/rewrite/bitmap_font.hpp",
+      "bytes": 3779,
+      "sha256": "3a35f086f7cf6a7a88ef93c2415d75da20aa12427795daec7edf11b3344fd458"
+    },
+    {
+      "path": "src/rewrite/cheat_action.hpp",
+      "bytes": 370,
+      "sha256": "67ec3ca0a7b9a25d18dfff5dbad796542cc8c08ecf781a44a1fb410452afcd7e"
+    },
+    {
+      "path": "src/rewrite/cheat_menu.cpp",
+      "bytes": 3802,
+      "sha256": "4d2c69dd3c776eb36fe0cbd2aa48ce81e757a43f64bb4b0d4df6c9696a5de70a"
+    },
+    {
+      "path": "src/rewrite/cheat_menu.hpp",
+      "bytes": 2900,
+      "sha256": "d706d8ba091b53a98fd9b0608cdf4a823ac7cbe20829332341f9d4aa68a54589"
+    },
+    {
+      "path": "src/rewrite/CMakeLists.txt",
+      "bytes": 27217,
+      "sha256": "4c6cb2a8ae8c22090774ba464805175c370c77fd528e500c1138940a9f9a1f4a"
+    },
+    {
+      "path": "src/rewrite/collision2d.cpp",
+      "bytes": 11204,
+      "sha256": "778f67a859d68749cda9d67c680cc7f804a4432131a7e32878caa35984a7b462"
+    },
+    {
+      "path": "src/rewrite/collision2d.hpp",
+      "bytes": 1812,
+      "sha256": "8f0e31073b6d69e37e517a5773b3ca2f9e90ba6e0cdcd2ea01bcf63ff7bfc9ec"
+    },
+    {
+      "path": "src/rewrite/dat_inspect.cpp",
+      "bytes": 4861,
+      "sha256": "645d3ae1429b5c387895290001ba2cb830ef817c73e20dfbfccc90198ab57a46"
+    },
+    {
+      "path": "src/rewrite/dat_reader.cpp",
+      "bytes": 11879,
+      "sha256": "cce0de95340847dd8651d29bab1fd1c4e35b159988cfc0812726cbf98e621550"
+    },
+    {
+      "path": "src/rewrite/dat_reader.hpp",
+      "bytes": 2737,
+      "sha256": "7243727a13a8b1946bbe54992ec39d7f2c6c9c270c5ee76c468e4e52b0845a8d"
+    },
+    {
+      "path": "src/rewrite/flag_spinner.cpp",
+      "bytes": 3668,
+      "sha256": "9b21db4155d0b42c68a2fc830879ee059228b879543f64ce97fd753449f11ce6"
+    },
+    {
+      "path": "src/rewrite/flag_spinner.hpp",
+      "bytes": 1477,
+      "sha256": "1c17399715171651f6cf14f1a0c81b8f0fd0e15b88d39290f7a89f9902875576"
+    },
+    {
+      "path": "src/rewrite/flipper.cpp",
+      "bytes": 16119,
+      "sha256": "03a8f7c93a13e72516d474a4faa4cbec3db57e5bb3387eb4999abe8b17496a13"
+    },
+    {
+      "path": "src/rewrite/flipper.hpp",
+      "bytes": 5156,
+      "sha256": "3f2930e41f66570c9904011a3c9384065de1d91990b2518c46fddf99166b91e4"
+    },
+    {
+      "path": "src/rewrite/font_preview.cpp",
+      "bytes": 4704,
+      "sha256": "d89a9ba9582182d2ce227b1550c25a25efc8266fdd206ed43fce21d4b54cd66e"
+    },
+    {
+      "path": "src/rewrite/game_rules.cpp",
+      "bytes": 11060,
+      "sha256": "fff8078e8d79ec4679097eff366451579c9fcec02532b3e6320935a33033004d"
+    },
+    {
+      "path": "src/rewrite/game_rules.hpp",
+      "bytes": 3848,
+      "sha256": "f3c575cff204707ae8f855912f4e70fd3baff938f74656ac9eec1056b541fbda"
+    },
+    {
+      "path": "src/rewrite/game_sound_bank.cpp",
+      "bytes": 10952,
+      "sha256": "c5261c411b32aec88e2a0038855807bfd2e3b09c7ce8d298a5138844a08d6bbd"
+    },
+    {
+      "path": "src/rewrite/game_sound_bank.hpp",
+      "bytes": 2101,
+      "sha256": "db406b683968266c2b24f00545ee36502aeaa760d2164aec7234ffda9d9118b7"
+    },
+    {
+      "path": "src/rewrite/include/pinball360/bitmap.hpp",
+      "bytes": 1442,
+      "sha256": "38ce7140d654d7c110831af7e82fd0fe0f306f4c2be9711529aa2e371baad096"
+    },
+    {
+      "path": "src/rewrite/kickback.cpp",
+      "bytes": 5520,
+      "sha256": "efb48b39e862e96b3022b98f22236d03c1c8371903c892a21b846889da339794"
+    },
+    {
+      "path": "src/rewrite/kickback.hpp",
+      "bytes": 2713,
+      "sha256": "fc714ecab9018416872e76dbf3775a5cca7033026d6ab1bc609f0d384037f554"
+    },
+    {
+      "path": "src/rewrite/material_response.cpp",
+      "bytes": 4567,
+      "sha256": "8dfe07d6a1e61db03c0c6055ec8fcaded7502b8c263aad8ea29a5abd67581505"
+    },
+    {
+      "path": "src/rewrite/material_response.hpp",
+      "bytes": 2207,
+      "sha256": "c409dfc0cbd9d9107b73aaa53270899fa958b4163d041a7a84b3abe4280a3c15"
+    },
+    {
+      "path": "src/rewrite/message_display.cpp",
+      "bytes": 11076,
+      "sha256": "f493055793f4facae0048c9c16ff0cc631025638ae3144cc15ff8830bbaefcdc"
+    },
+    {
+      "path": "src/rewrite/message_display.hpp",
+      "bytes": 1866,
+      "sha256": "acb55edcd4332af8dabb92621d0976e597bbbab35189a5287a7da825521b5c0a"
+    },
+    {
+      "path": "src/rewrite/mission_engine.cpp",
+      "bytes": 15627,
+      "sha256": "190ba962cfbd8ee7d61a0acbbdc7c8a2bdb9aaba5378f9bd47325ef56ffdac0d"
+    },
+    {
+      "path": "src/rewrite/mission_engine.hpp",
+      "bytes": 2568,
+      "sha256": "fb78637fb1411d22a2feacec85c2f3b6a8db99d0589a2d8e8d68acd7cf762278"
+    },
+    {
+      "path": "src/rewrite/motion.cpp",
+      "bytes": 23537,
+      "sha256": "b92d83b7d7b3cd7cc759a1e52e0f3e4620311594783df445618d8504e7d99510"
+    },
+    {
+      "path": "src/rewrite/motion.hpp",
+      "bytes": 9271,
+      "sha256": "7b76c79d773803170eed0d37f914875562f68a0a2f1c20b00b6152286908323c"
+    },
+    {
+      "path": "src/rewrite/native_runtime_tests.cpp",
+      "bytes": 519,
+      "sha256": "44a46b750dec3bbb64fd23c465c938f87b6bac502470452054a0ffb98fdd85fd"
+    },
+    {
+      "path": "src/rewrite/platform_input.cpp",
+      "bytes": 4402,
+      "sha256": "4fb3636c2a93add5781915f509d515813ae164c10ef459ef818f4bcdac55dc54"
+    },
+    {
+      "path": "src/rewrite/platform_input.hpp",
+      "bytes": 2928,
+      "sha256": "4f474f0b160688f60ab2775287fa422547a23505adbf9b36029f5ac7affa5e95"
+    },
+    {
+      "path": "src/rewrite/playfield_test.cpp",
+      "bytes": 84617,
+      "sha256": "46cd84ec0435a92aa6710c52361a4416584b3ec3384597fc9fb02e24a1764f1b"
+    },
+    {
+      "path": "src/rewrite/playfield_test.hpp",
+      "bytes": 9639,
+      "sha256": "109f763356e90569aa5e7af5ad7084f6ce7b39e0271a0d7e79ed4ab222c59e2e"
+    },
+    {
+      "path": "src/rewrite/preview.cpp",
+      "bytes": 7576,
+      "sha256": "71fa69073b4db08ec4d094b681e0798ec32388f1f4b3ff5ee4c4cbb6adf3cf2f"
+    },
+    {
+      "path": "src/rewrite/projection.cpp",
+      "bytes": 4359,
+      "sha256": "da12f8fb1d60ada7ac9d7f220bd0ddf09d7d1b3194b69a85d08799735012cb1f"
+    },
+    {
+      "path": "src/rewrite/projection.hpp",
+      "bytes": 949,
+      "sha256": "fadcb0993c8356f6d877d13faff7c95fe77c390538a614a6db96c51052116631"
+    },
+    {
+      "path": "src/rewrite/reference_hole.cpp",
+      "bytes": 5302,
+      "sha256": "bcf89add1699480fb10d58b5a15da6e9cd889f1cf3e3cb8a331e6ce54fedfe50"
+    },
+    {
+      "path": "src/rewrite/reference_hole.hpp",
+      "bytes": 2490,
+      "sha256": "fb64b11db9a477e7187f128acce840e4e4c6f78cb7f7679a641a16875d3a737a"
+    },
+    {
+      "path": "src/rewrite/reference_nudge.cpp",
+      "bytes": 4843,
+      "sha256": "ec09b251429e8334ce7000503172f9c56711341b308a3da322ee574bc684b588"
+    },
+    {
+      "path": "src/rewrite/reference_nudge.hpp",
+      "bytes": 3915,
+      "sha256": "25bbed7d3bccbf211c415eb4590251596cfdf1961091b3ecb3d4b56d7c4fd3ef"
+    },
+    {
+      "path": "src/rewrite/reference_plunger.cpp",
+      "bytes": 7796,
+      "sha256": "5705dc84820016806f0b5a817543127392cc05445653b889170bc26b1943520a"
+    },
+    {
+      "path": "src/rewrite/reference_plunger.hpp",
+      "bytes": 3382,
+      "sha256": "501ab2e6b22e1320b069e9fe0b290eac0c749cca0621b1c5688a94134c16eb97"
+    },
+    {
+      "path": "src/rewrite/reference_table.cpp",
+      "bytes": 70043,
+      "sha256": "e769452a5af818b621dfc674b33b7c6466d4ac8896b3e210b31f4eb921a167b6"
+    },
+    {
+      "path": "src/rewrite/reference_table.hpp",
+      "bytes": 12196,
+      "sha256": "98ecdba14315120c7deda1ac18a631c86ed853bae7e0f1b3b207266944e54b46"
+    },
+    {
+      "path": "src/rewrite/runtime.cpp",
+      "bytes": 12496,
+      "sha256": "bf162e60288b91a67240f0dcf34af231816982a6e6ba539b4eb106acf0be0344"
+    },
+    {
+      "path": "src/rewrite/runtime.hpp",
+      "bytes": 6401,
+      "sha256": "7f254050ea8d02a6063be8e12cc20ec03bbc7ea1d7a34bd2b3dde365e8ff5558"
+    },
+    {
+      "path": "src/rewrite/scene.cpp",
+      "bytes": 26095,
+      "sha256": "5acea67464b08fcfc740fff6eff3eb6847453ae48dc25cf98de8a05fe1f502c6"
+    },
+    {
+      "path": "src/rewrite/scene.hpp",
+      "bytes": 4566,
+      "sha256": "5aaafa9468d6934c85aa70be9188dab765bb760c57dc51b6b062080f844528e3"
+    },
+    {
+      "path": "src/rewrite/scene_preview.cpp",
+      "bytes": 2019,
+      "sha256": "014d131889b50d6c175a1d1878d55576522584d9b8508f9ca7a81f3c18834754"
+    },
+    {
+      "path": "src/rewrite/score_display.cpp",
+      "bytes": 9790,
+      "sha256": "6b3cf4c01dcf679fa93a7774e042fefd79db9682d6ee5328f948695403908307"
+    },
+    {
+      "path": "src/rewrite/score_display.hpp",
+      "bytes": 2275,
+      "sha256": "ced95b90474fc6e39ccb87776922e52789a4ed1066a1ad35b211bde4c58f2e3c"
+    },
+    {
+      "path": "src/rewrite/sound_cue.hpp",
+      "bytes": 982,
+      "sha256": "527afb39285a37c275ebc86f461cc0f9a7b24588478078517c1502e945b78861"
+    },
+    {
+      "path": "src/rewrite/startup_sequence.cpp",
+      "bytes": 4696,
+      "sha256": "d5b91b5ac99bc04ea200200693675a137dbf16acee3536eae31a24b60d5d7380"
+    },
+    {
+      "path": "src/rewrite/startup_sequence.hpp",
+      "bytes": 2720,
+      "sha256": "474817aca1d87cff5b9cfb074b51283ca1a0761b971e75900304f02159f13a5d"
+    },
+    {
+      "path": "src/rewrite/table_inspect.cpp",
+      "bytes": 11343,
+      "sha256": "f7ebb1c72e2090d6dfe27980c86712dba97551b45796bcda8ac4dd93cc673384"
+    },
+    {
+      "path": "src/rewrite/table_model.cpp",
+      "bytes": 13664,
+      "sha256": "d99b55853b43a8af6b04ffd63aab674fb98131e75f435cc2bd322bd254dc3ac4"
+    },
+    {
+      "path": "src/rewrite/table_model.hpp",
+      "bytes": 4458,
+      "sha256": "56d9ac8699269d0d533f7413820605212adf3484bc2600c4b1ca4a4d19280085"
+    },
+    {
+      "path": "src/rewrite/table_progression.cpp",
+      "bytes": 6090,
+      "sha256": "07be95d732072f577eda85fd8c421862a931a47708cede1c9526316e02dcf22b"
+    },
+    {
+      "path": "src/rewrite/table_progression.hpp",
+      "bytes": 2202,
+      "sha256": "c9624e43423c4e1bec671f41bc45b466d9205653a0f31321667073d57c1746c5"
+    },
+    {
+      "path": "src/rewrite/table_shake.cpp",
+      "bytes": 7850,
+      "sha256": "77e94bc08bf48bec67be3257561d314f339ec9551f0c386c50c61602c071bdc8"
+    },
+    {
+      "path": "src/rewrite/table_shake.hpp",
+      "bytes": 3071,
+      "sha256": "9f9f3408dbacaded865a29304a2d1c7ef1080d39fa61ef286fdb0e4db7598cb6"
+    },
+    {
+      "path": "src/rewrite/target_bank.cpp",
+      "bytes": 7702,
+      "sha256": "ae5d348b822894a1f0c87a3bf24ef422d1e38c297b1a450de73ba9008aecbf88"
+    },
+    {
+      "path": "src/rewrite/target_bank.hpp",
+      "bytes": 3650,
+      "sha256": "9505e4edcd57424c1d0eb239a4f8627ec26530b96919697351e0754ecff01f05"
+    },
+    {
+      "path": "src/rewrite/tilt_counter.cpp",
+      "bytes": 3909,
+      "sha256": "af2271acc1efac0da2cb67373f79eb62da7663038890fc46b4af56f22cfce449"
+    },
+    {
+      "path": "src/rewrite/tilt_counter.hpp",
+      "bytes": 2031,
+      "sha256": "8dffd871a3a02e57b740265c8f8f16de53a5295a8414cd5a2b486ea63a03d3ff"
+    },
+    {
+      "path": "src/rewrite/voice_mixer.cpp",
+      "bytes": 6935,
+      "sha256": "74d864c0b93946c0f6d6e521bc1e194052d6d9db967de99ab16ea0180f12d8ed"
+    },
+    {
+      "path": "src/rewrite/voice_mixer.hpp",
+      "bytes": 2843,
+      "sha256": "dad57fbbcfc1f1103154a0dd48a7347cc215b66cc5ab0500de4c96ebdeac0d60"
+    },
+    {
+      "path": "src/rewrite/wave_audio.cpp",
+      "bytes": 11982,
+      "sha256": "5ff71a740d7e5d86a51bb25fb192b5b85fac580a42301eff794da3c60fc14dfe"
+    },
+    {
+      "path": "src/rewrite/wave_audio.hpp",
+      "bytes": 3286,
+      "sha256": "1ad76db0662420fba9f05a0d5dc9d31b85039f473d20c06aecf94092ae57e03c"
+    },
+    {
+      "path": "src/rewrite/win32_viewer.cpp",
+      "bytes": 20819,
+      "sha256": "028c35b39b5d6e3a63e7ac25a6c9ecb64c98e8c6eab8e2533ce812414c1bc1ab"
+    },
+    {
+      "path": "src/rewrite/xbox360_main.cpp",
+      "bytes": 104910,
+      "sha256": "4b9c51bd506c762f53720500bd61e76e81f30db102a009d5167cda077999fc69"
+    },
+    {
+      "path": "src/rewrite/xbox_audio_output.cpp",
+      "bytes": 6242,
+      "sha256": "196dd2cc9b2aeb54f47634368f7444935749d781532a9fb17bc9f1ee0e8ac49b"
+    },
+    {
+      "path": "src/rewrite/xbox_audio_output.hpp",
+      "bytes": 1385,
+      "sha256": "1b7754210278fb2a9763674af40cd9211cb98a3b60b4ab7b3d598c0e3edf4dd5"
+    },
+    {
+      "path": "Start Builder.pyw",
+      "bytes": 211,
+      "sha256": "743980b7327d33bb8479b6941854c9a307d8385bc4d67e1088067ece3ab3eec4"
+    },
+    {
+      "path": "tests/rewrite/advanced_playfield_tests.cpp",
+      "bytes": 64265,
+      "sha256": "fee49da28c0c2eea6e068afab02c88e7bbfe7210c6ebd5dbcd905926249bf347"
+    },
+    {
+      "path": "tests/rewrite/advanced_table_rules_tests.cpp",
+      "bytes": 17737,
+      "sha256": "a1215ee4447090dad2e59486d8c5dc19d73051a819b3d223b8f093e6e5f3fb1e"
+    },
+    {
+      "path": "tests/rewrite/ball_visual_tests.cpp",
+      "bytes": 16058,
+      "sha256": "81038e65c476e4a0c7acfb928edc69c246152dc9a99315d9821b697f7590780b"
+    },
+    {
+      "path": "tests/rewrite/bitmap_font_tests.cpp",
+      "bytes": 14158,
+      "sha256": "1fd471c1f77e43842baa4bfe25696304ee93a7aa22841191269bf94ea9f5bc20"
+    },
+    {
+      "path": "tests/rewrite/bitmap_tests.cpp",
+      "bytes": 9634,
+      "sha256": "68f8b0e97366151a335ec71607f7b8472fc7b5393031e6759d859aa85fbd385f"
+    },
+    {
+      "path": "tests/rewrite/cheat_menu_tests.cpp",
+      "bytes": 8519,
+      "sha256": "cd2d2fcdcbde7bc89b21c6e8e9b099358d83970189f5d5ef3d9f3c2c050e1679"
+    },
+    {
+      "path": "tests/rewrite/collision2d_tests.cpp",
+      "bytes": 11150,
+      "sha256": "2abfb813cfc879a86db51cef785bb6af9e7a25bcbd1b976b696ee33eeb3f2615"
+    },
+    {
+      "path": "tests/rewrite/dat_reader_tests.cpp",
+      "bytes": 12434,
+      "sha256": "1a5182a6d2214bf02b5fc57018adb7eca65a615f995a8cfbe2928f73ae0920ff"
+    },
+    {
+      "path": "tests/rewrite/flag_spinner_tests.cpp",
+      "bytes": 2945,
+      "sha256": "6e45e044774aaa1ecf6fb29c8c6bba04859b21d25995293016435d22cbeb66ca"
+    },
+    {
+      "path": "tests/rewrite/flipper_tests.cpp",
+      "bytes": 24703,
+      "sha256": "b06817e4d168ab6c49f8a2318873fc0a20f5182f2df8512aeb54e24c5926ed7a"
+    },
+    {
+      "path": "tests/rewrite/game_rules_tests.cpp",
+      "bytes": 14645,
+      "sha256": "e205bb86c54dea81b5bbe5c78e7aeef659980b8c9251252374a0020fd3fb0184"
+    },
+    {
+      "path": "tests/rewrite/game_sound_bank_tests.cpp",
+      "bytes": 8729,
+      "sha256": "68ea053ae0c425d5310fc893a57a61611dbc66cda2f9f4c6255a7ff925fcf589"
+    },
+    {
+      "path": "tests/rewrite/kickback_tests.cpp",
+      "bytes": 6010,
+      "sha256": "33168bc4f28f9562fd20d779d970fa10c21d425bd51fc68f670aa1cd0da307c8"
+    },
+    {
+      "path": "tests/rewrite/material_response_tests.cpp",
+      "bytes": 8042,
+      "sha256": "eb9fd076518a44cc0d6d27c29c84495f4e19a02d1c596883f0f8600428ba114a"
+    },
+    {
+      "path": "tests/rewrite/message_display_tests.cpp",
+      "bytes": 9556,
+      "sha256": "a5658708954729fca8f6bab4b78f254464a35e69e72ea05019cb0d5e8424b995"
+    },
+    {
+      "path": "tests/rewrite/mission_engine_tests.cpp",
+      "bytes": 9187,
+      "sha256": "82fea65de9431403ce664debed92ffee3ca72f3a7fdcb0f5638144a061286d8a"
+    },
+    {
+      "path": "tests/rewrite/motion_tests.cpp",
+      "bytes": 61231,
+      "sha256": "17a078f87807fcb34581bcc990dc9513725ac51e20db33631c0812c0e72232cf"
+    },
+    {
+      "path": "tests/rewrite/platform_input_tests.cpp",
+      "bytes": 15761,
+      "sha256": "b8500cb0641e511b448c0abf3ec39629d12456bec40676ad1543a8fb66ef5a5c"
+    },
+    {
+      "path": "tests/rewrite/playfield_test_tests.cpp",
+      "bytes": 59317,
+      "sha256": "1959803e8ae4bc553557f2bed2791f07fb3251b3dee5040d6d803a8c164d438a"
+    },
+    {
+      "path": "tests/rewrite/projection_tests.cpp",
+      "bytes": 3569,
+      "sha256": "c085dd8ed061d43666a86d88ac98dd585cf239412319baabfcc562f68e638f47"
+    },
+    {
+      "path": "tests/rewrite/ramp_playfield_tests.cpp",
+      "bytes": 14605,
+      "sha256": "93b6dadab1959a665127d842c6c85466b615118ccd4512b0349da7d6f727370e"
+    },
+    {
+      "path": "tests/rewrite/reference_hole_tests.cpp",
+      "bytes": 11977,
+      "sha256": "4ab4968f27aac2609882cfcc22cd7f703cc39652e58f77542f2f169c6cefe7ea"
+    },
+    {
+      "path": "tests/rewrite/reference_nudge_tests.cpp",
+      "bytes": 13670,
+      "sha256": "6f75c2c6cfc7116c31bf32502731e92eec13202ca742ed489b3920cab1e53956"
+    },
+    {
+      "path": "tests/rewrite/reference_plunger_tests.cpp",
+      "bytes": 11857,
+      "sha256": "4bd26ea11fd2d664e5044a374dcc54b5dbe7462c4051932b02531b3135df7f5a"
+    },
+    {
+      "path": "tests/rewrite/reference_table_tests.cpp",
+      "bytes": 99660,
+      "sha256": "2e8202cf9d8b22df6f900d1e8a933f5363c70dfbe896e2d034e04fbb790a2125"
+    },
+    {
+      "path": "tests/rewrite/runtime_tests.cpp",
+      "bytes": 19324,
+      "sha256": "d895e54230d609708e1e630d8252012aca34e0c5da23ff8bf4c325fb9f92d0ed"
+    },
+    {
+      "path": "tests/rewrite/scene_tests.cpp",
+      "bytes": 46430,
+      "sha256": "0ca39667d969074243c9fdcdb44422ec43dfb99e9795c0bfceddf9a7b066c53c"
+    },
+    {
+      "path": "tests/rewrite/score_display_tests.cpp",
+      "bytes": 11976,
+      "sha256": "3416bc7a3aae81e5ce4b06d46472a652bf3407fa00b41ca46e0e9fca10cf002e"
+    },
+    {
+      "path": "tests/rewrite/startup_sequence_tests.cpp",
+      "bytes": 15336,
+      "sha256": "c6a74135b6b81caec8def7f773de5a8f8cd1f4923532e53f3a8d790f94a9f920"
+    },
+    {
+      "path": "tests/rewrite/table_model_tests.cpp",
+      "bytes": 16792,
+      "sha256": "35f59fdb881c1e3a7f91089509cf0af5cae2f1860fcd542587b6e850b289b555"
+    },
+    {
+      "path": "tests/rewrite/table_progression_tests.cpp",
+      "bytes": 7209,
+      "sha256": "4346d8a3ee855d02e10ad7028a771b51f8cffc14e97acb025d11bcb76471d4e0"
+    },
+    {
+      "path": "tests/rewrite/table_shake_tests.cpp",
+      "bytes": 13197,
+      "sha256": "ad4c978a7d6c776dd340bca2bde58506a0882d97536ede6a528c83c23f291ca0"
+    },
+    {
+      "path": "tests/rewrite/target_bank_tests.cpp",
+      "bytes": 13621,
+      "sha256": "5029d02f3c22cccc90b5859bd9484c625f38619eab3180ef0a6c8c3e3632a9ba"
+    },
+    {
+      "path": "tests/rewrite/tilt_counter_tests.cpp",
+      "bytes": 4801,
+      "sha256": "c108dc061b7e9a4ef3ab0a3a79c760f32bc8cfc3dfc84469a359761f78d15f3a"
+    },
+    {
+      "path": "tests/rewrite/voice_mixer_tests.cpp",
+      "bytes": 6625,
+      "sha256": "bbfe0216ba550f966a3d72c2fcb84f907140c49e4aa3f8b4d5367683b7e0e956"
+    },
+    {
+      "path": "tests/rewrite/wave_audio_tests.cpp",
+      "bytes": 15324,
+      "sha256": "830e4f22158b8b0e00e931cbf9e051c48cc0527a8a298c8583a0d961c2687eaa"
+    },
+    {
+      "path": "tests/rewrite/xbox_audio_output_tests.cpp",
+      "bytes": 2003,
+      "sha256": "2e9668cbf7c8ebf48192d79a1ef67120f2a6662e06b1d12494b26f40ac3bc0d1"
+    },
+    {
+      "path": "tests/rewrite/xbox_backend_contract_tests.cpp",
+      "bytes": 16219,
+      "sha256": "649809eb165befe08145c0eb54ed689b14c9a969916d174598ed271bee8138b8"
+    },
+    {
+      "path": "tools/portable/bootstrap.sh",
+      "bytes": 10192,
+      "sha256": "9d65b773c3577bb24fafba52585c14240f30cd2cc352543e7969f7e8a099d7c4"
+    },
+    {
+      "path": "tools/portable/BUILD-FROM-SOURCE.txt",
+      "bytes": 4548,
+      "sha256": "6739476f60a99303a5efe59e0df732beea0b8f09524108ba764e510291304caf"
+    },
+    {
+      "path": "tools/portable/builder.py",
+      "bytes": 24635,
+      "sha256": "288efb8a511c18441033bfe45b2e38aab50fc753d20d7d38a770ec3422dafbc9"
+    },
+    {
+      "path": "tools/portable/create_game.py",
+      "bytes": 12096,
+      "sha256": "9e9afa60348a4e36f9b26b626e507b8dcdfc6e574e3edecb8453ddff0af66c70"
+    },
+    {
+      "path": "tools/portable/create_game_gui.py",
+      "bytes": 23908,
+      "sha256": "88dfe1f9b9de055351b1c8a757d41aa142dbb435b7c0ec2fd323a63cac00500c"
+    },
+    {
+      "path": "tools/portable/Dockerfile",
+      "bytes": 700,
+      "sha256": "fc60c49189a4ed387189e8a4b60a1fc824477a0030400661ce3785ea9f4a9e89"
+    },
+    {
+      "path": "tools/portable/expected_xp_assets.json",
+      "bytes": 10091,
+      "sha256": "4def2551cff791e2062db55e9c9684a1727a24137a236b9f54ac4cd73dddc6db"
+    },
+    {
+      "path": "tools/portable/gui.py",
+      "bytes": 22444,
+      "sha256": "06387383de7d73cbeddcb95a2121c565d4181e55d427b107f63acd72b3eb87b8"
+    },
+    {
+      "path": "tools/portable/gui_backend.py",
+      "bytes": 10601,
+      "sha256": "3022f33be3ff849d7f25510a5091575908d5cb60e8b4ff7fbb2e6dfc2b023de6"
+    },
+    {
+      "path": "tools/portable/README.txt",
+      "bytes": 2789,
+      "sha256": "b5f788f3e81c312e4709771af877f1fd53c86987805682cea9c4a3e838f6115a"
+    },
+    {
+      "path": "tools/portable/runtime-notices/boost/LICENSE_1_0.txt",
+      "bytes": 1338,
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/COPYING",
+      "bytes": 18002,
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/COPYING.LIB",
+      "bytes": 26527,
+      "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/COPYING.RUNTIME",
+      "bytes": 3324,
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/COPYING3",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/COPYING3.LIB",
+      "bytes": 7639,
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/libiberty-cp-demangle-NOTICE.txt",
+      "bytes": 1439,
+      "sha256": "ec6118ee6bb65004cfa7e6ba97b00d94b12154666b04a9f45a0752528567f4b6"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/libstdcpp-memory-NOTICE.txt",
+      "bytes": 1626,
+      "sha256": "7c756a0988c4d83acf88708d9a56ebe99264b3024e4f94c010eb05641990384c"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/libstdcpp-shared_ptr-NOTICE.txt",
+      "bytes": 1678,
+      "sha256": "5fefc1789f96c25c8fca22d6c03c3d1f5820865336c10e54fc991c441b0dcdf9"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/libstdcpp-stl_algobase-NOTICE.txt",
+      "bytes": 2188,
+      "sha256": "36d60d407fa2aae497ae58c467829d8879780c21b5a0679e536717cb82593fb7"
+    },
+    {
+      "path": "tools/portable/runtime-notices/newlib-4.6.0.20260123/COPYING.NEWLIB",
+      "bytes": 78388,
+      "sha256": "f3afe48e4bc6ed8466a42e9dacb6be1d8f9cbf5aac15cb8e474a5ccde8b40ef6"
+    },
+    {
+      "path": "tools/portable/runtime-notices/newlib-4.6.0.20260123/newlib-libm-fmax-NOTICE.txt",
+      "bytes": 204,
+      "sha256": "bfaf38eec3c76e3a2a3a6899d7862e0a75a54ab63698a7ed895dc710305ce2db"
+    },
+    {
+      "path": "tools/portable/runtime-notices/newlib-4.6.0.20260123/newlib-libm-fpclassify-NOTICE.txt",
+      "bytes": 210,
+      "sha256": "a91953029573c3778146c85b52bc817accecd179c7e5955060e708831757e970"
+    },
+    {
+      "path": "tools/portable/runtime-notices/xsdk/LICENSE",
+      "bytes": 1061,
+      "sha256": "61f498176b451c424b17b2550bfa64800db695936e58e67dc05feff68fce69de"
+    },
+    {
+      "path": "tools/portable/runtime-notices/xsdk/THIRD_PARTY_NOTICES.md",
+      "bytes": 5459,
+      "sha256": "f92f9b39349dd6aad17351729a9d3b87782d545e47c50ea8a2bfedb6f762868f"
+    },
+    {
+      "path": "tools/portable/runtime-notices.json",
+      "bytes": 4241,
+      "sha256": "3aaa53e5594b0883398d85716644f3a0b2fd28491104e464a3db3d3bcf89bd43"
+    },
+    {
+      "path": "tools/portable/test_builder.py",
+      "bytes": 17234,
+      "sha256": "ebc9f7c5fca908ea2fac09c1b017dd17a4b8fa7916940a24713f1977fe4b662d"
+    },
+    {
+      "path": "tools/portable/test_create_game.py",
+      "bytes": 11702,
+      "sha256": "bd4ba9327b0f6445f183a2d5b9ee20f05ec9579d4127b184fddd36ea4da1b5be"
+    },
+    {
+      "path": "tools/portable/test_creator_input.py",
+      "bytes": 7822,
+      "sha256": "92ad7e8ba645db068cd2f66992b84b29fa7c6a6d45a06665c7a7aaf0e5fcf18c"
+    },
+    {
+      "path": "tools/portable/test_gui_backend.py",
+      "bytes": 10298,
+      "sha256": "70ad5c2ad702b29816dc4d7cee60808c13b77304826a9a0fc77f9ee3bce62cd4"
+    },
+    {
+      "path": "tools/portable/test_xp_assets.py",
+      "bytes": 13195,
+      "sha256": "e7a41faa5527948c1578918b5ceb1c5563b40f89803015214c056ed409ff17ea"
+    },
+    {
+      "path": "tools/portable/xp_assets.py",
+      "bytes": 18864,
+      "sha256": "20669568296b242204729f2129c95434079b053b0f1c415b5c9e79d1abfd23b5"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+Pinball Port Builder - GPLv3
+
+START HERE
+
+1. Extract this whole ZIP to a normal folder.
+2. Open "Start Builder.pyw" with Python 3.10 or newer.
+3. Choose where to save the game and click "Download and Build".
+4. When it finishes, click "Open game folder".
+
+The window downloads the selected XP files, verifies them, prepares the
+compiler and builds both Xbox360/default.xex and Xenia/default.xex. Keep
+each game folder together. The source package includes no XP assets.
+
+A BUILD ENVIRONMENT ON YOUR COMPUTER
+
+Python needs Tkinter to display the window. Standard Python installers for
+Windows and macOS normally include it; Linux may need its Python Tk package.
+
+The window detects supported installed tools and checks versions. Docker
+Desktop or Podman with Linux containers is the usual public setup. Ready
+native Linux tools or an existing WSL distribution also work. If something
+is missing, the window shows the setup step and a "Get build tools" link.
+After installation, open the build environment and click "Check again".
+
+The program does not search the developer's computer, require a particular
+username, drive, project folder or WSL distribution, or use a proprietary
+Xbox development kit. Compiler and SDK downloads are prepared automatically
+in a per-user cache. It does not enable OS features or install system-wide
+software silently. A build environment remains a prerequisite; Python alone
+cannot compile the Xbox executable.
+
+The first build downloads around140MB of compiler sources plus SDK/system
+prerequisites, uses roughly10-15GB of cache space and can take a while.
+Later builds reuse the tools. Keep the window open while building; you can
+minimize it. Detailed progress and diagnostics are available under Show details.
+
+DOWNLOAD OR LOCAL FILES
+
+The default uses the explicit user-selected Internet Archive file:
+https://archive.org/details/3-d-pinball-for-windows.-7z
+
+The exact archive and XP file hashes are checked. PINBALL.EXE is only read
+for its message-font asset; it is never run or included in game output.
+The supported version is XP5.1.2600.5512. Other editions need another profile.
+
+"Use files I already have" accepts an XP folder, ZIP or the supported7z.
+If host7-Zip is absent, the container can unpack7z automatically. Native
+Linux/WSL need an available7z tool; the setup check explains that requirement.
+An extracted folder or ZIP needs no archive add-on.
+
+OUTPUT
+
+Each build creates a new dated folder, preserving earlier games:
+  Xbox360/default.xex - physical console, correct console display setting
+  Xenia/default.xex   - Xenia display setting
+  Source.zip          - matching GPLv3 game and builder source, no XP assets
+  build-report.json   - source/asset/build identities and result
+
+Source and retained runtime notices accompany the build. Originals remain
+separate from newly written code. Six absent WAV references stay silent.
+
+CACHE AND PRIVACY
+
+Default cache locations:
+  Windows: %LOCALAPPDATA%\PinballPortBuilder
+  macOS:   ~/Library/Caches/PinballPortBuilder
+  Linux:   $XDG_CACHE_HOME/pinball-port-builder or ~/.cache/pinball-port-builder
+
+No telemetry, user account, upload, console access or credentials are used.
+Public dependency/file downloads are HTTPS. The selected source folder is
+mounted read-only for container builds. Build logs stay in the local cache.
+
+Advanced users may set PINBALL_BUILDER_CACHE and PINBALL_BUILDER_OUTPUT to
+choose other locations before starting the window. This is optional. Cache
+paths with spaces need Docker/Podman due to upstream native build recipes.
+
+LICENSE
+
+The new game, tests and builder are GPL-3.0-only. See LICENSE and
+LICENSE-SCOPE.txt. Keep matching source available when distributing covered
+binaries; Source.zip is produced for that purpose. External dependencies
+retain their licenses/notices. XP graphics/font/audio retain separate rights;
+Archive availability and this GPL grant do not grant asset redistribution
+permission. This is not a legal-compliance or clean-room certification.
+
+VALIDATION AND LIMITS
+
+The public GUI is tested on this Windows/WSL computer. Docker/Podman/macOS
+and other architectures remain untested here. Pinned source hashes are
+checked; host system packages/base images are not bit-reproducibility pins.
+No console is uploaded to, launched or modified by the builder.
+
+The command-line build.py remains available for advanced use. Run
+python build.py --help for its options; no command is needed for the GUI.

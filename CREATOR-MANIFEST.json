@@ -1,0 +1,192 @@
+{
+  "schema": 1,
+  "new_code_license": "GPL-3.0-only",
+  "method": "precompiled verified port plus separately downloaded original XP assets",
+  "original_xp_assets_bundled": false,
+  "only_user_prerequisite": "Windows x64 Python3.10+ withTkinter",
+  "helper_imported_dlls": [
+    "OLEAUT32.dll",
+    "USER32.dll",
+    "ADVAPI32.dll",
+    "msvcrt.dll",
+    "KERNEL32.dll"
+  ],
+  "files": [
+    {
+      "path": "Create Game.pyw",
+      "bytes": 229,
+      "sha256": "3fb47ef3349ba984e4dd3709aa6932a73fc70cd2cbbd4edc93f01a54ca581aa3"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "LICENSE-SCOPE.txt",
+      "bytes": 1092,
+      "sha256": "5ca96ae9e21d69322842c36779cf0fdba89311e9f45c99a5620e3df5db0c828d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3851,
+      "sha256": "a039a3dc6c0783271666a3184093581e0d48e0d62ab180aa29968d8a1633e615"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 2804,
+      "sha256": "64a057a7d0769a41964bbaa52908681303f87a0a24c39aeec479f07f3d3b3b8b"
+    },
+    {
+      "path": "RELEASE-NOTES.md",
+      "bytes": 670,
+      "sha256": "f45199d1906283c72f00524711b1fbee40f9ec86b42d4c58d61e1a53d17975c6"
+    },
+    {
+      "path": "payload/7zr.exe",
+      "bytes": 931328,
+      "sha256": "fe66e92b57b88a80585d50e194572b33edde4a4af8a0d33e83801f9fa37e8a4e"
+    },
+    {
+      "path": "payload/GameSource.zip",
+      "bytes": 542532,
+      "sha256": "f062573bba45db011e8f1f7d2ebf9986c2fe4968daf05bd4df86efad40cb2009"
+    },
+    {
+      "path": "payload/HELPER-PROVENANCE.json",
+      "bytes": 569,
+      "sha256": "c115458a3c2330932ac3e9cab3974b2f18ceeee9431094d42e0775d873fb3a10"
+    },
+    {
+      "path": "payload/LZMA-SDK-26.06.7z",
+      "bytes": 1784871,
+      "sha256": "1d9da340870b12712e9068be178a4436fbad785486b62aed6e2aa88ea1e3bb65"
+    },
+    {
+      "path": "payload/LZMA-SDK-NOTICE.txt",
+      "bytes": 15835,
+      "sha256": "c01275a6f589734943fae41acff8ed833fdbd7fffb7b3b22d46af9eec00e8138"
+    },
+    {
+      "path": "payload/PAYLOAD-MANIFEST.json",
+      "bytes": 1213,
+      "sha256": "6e92065f803acb9663cc7ea1421308c07f9023b845c1a651e1776b6200321b58"
+    },
+    {
+      "path": "payload/default.xex",
+      "bytes": 2129920,
+      "sha256": "fc389d132b474eca8085ca91d62f0962a5e61758255c766be68745ed57ae8310"
+    },
+    {
+      "path": "tools/portable/BUILD-FROM-SOURCE.txt",
+      "bytes": 4548,
+      "sha256": "6739476f60a99303a5efe59e0df732beea0b8f09524108ba764e510291304caf"
+    },
+    {
+      "path": "tools/portable/builder.py",
+      "bytes": 24635,
+      "sha256": "288efb8a511c18441033bfe45b2e38aab50fc753d20d7d38a770ec3422dafbc9"
+    },
+    {
+      "path": "tools/portable/create_game.py",
+      "bytes": 12096,
+      "sha256": "9e9afa60348a4e36f9b26b626e507b8dcdfc6e574e3edecb8453ddff0af66c70"
+    },
+    {
+      "path": "tools/portable/create_game_gui.py",
+      "bytes": 23908,
+      "sha256": "88dfe1f9b9de055351b1c8a757d41aa142dbb435b7c0ec2fd323a63cac00500c"
+    },
+    {
+      "path": "tools/portable/expected_xp_assets.json",
+      "bytes": 10091,
+      "sha256": "4def2551cff791e2062db55e9c9684a1727a24137a236b9f54ac4cd73dddc6db"
+    },
+    {
+      "path": "tools/portable/runtime-notices.json",
+      "bytes": 4241,
+      "sha256": "3aaa53e5594b0883398d85716644f3a0b2fd28491104e464a3db3d3bcf89bd43"
+    },
+    {
+      "path": "tools/portable/runtime-notices/boost/LICENSE_1_0.txt",
+      "bytes": 1338,
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/COPYING",
+      "bytes": 18002,
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/COPYING.LIB",
+      "bytes": 26527,
+      "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/COPYING.RUNTIME",
+      "bytes": 3324,
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/COPYING3",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/COPYING3.LIB",
+      "bytes": 7639,
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/libiberty-cp-demangle-NOTICE.txt",
+      "bytes": 1439,
+      "sha256": "ec6118ee6bb65004cfa7e6ba97b00d94b12154666b04a9f45a0752528567f4b6"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/libstdcpp-memory-NOTICE.txt",
+      "bytes": 1626,
+      "sha256": "7c756a0988c4d83acf88708d9a56ebe99264b3024e4f94c010eb05641990384c"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/libstdcpp-shared_ptr-NOTICE.txt",
+      "bytes": 1678,
+      "sha256": "5fefc1789f96c25c8fca22d6c03c3d1f5820865336c10e54fc991c441b0dcdf9"
+    },
+    {
+      "path": "tools/portable/runtime-notices/gcc-15.3.0/libstdcpp-stl_algobase-NOTICE.txt",
+      "bytes": 2188,
+      "sha256": "36d60d407fa2aae497ae58c467829d8879780c21b5a0679e536717cb82593fb7"
+    },
+    {
+      "path": "tools/portable/runtime-notices/newlib-4.6.0.20260123/COPYING.NEWLIB",
+      "bytes": 78388,
+      "sha256": "f3afe48e4bc6ed8466a42e9dacb6be1d8f9cbf5aac15cb8e474a5ccde8b40ef6"
+    },
+    {
+      "path": "tools/portable/runtime-notices/newlib-4.6.0.20260123/newlib-libm-fmax-NOTICE.txt",
+      "bytes": 204,
+      "sha256": "bfaf38eec3c76e3a2a3a6899d7862e0a75a54ab63698a7ed895dc710305ce2db"
+    },
+    {
+      "path": "tools/portable/runtime-notices/newlib-4.6.0.20260123/newlib-libm-fpclassify-NOTICE.txt",
+      "bytes": 210,
+      "sha256": "a91953029573c3778146c85b52bc817accecd179c7e5955060e708831757e970"
+    },
+    {
+      "path": "tools/portable/runtime-notices/xsdk/LICENSE",
+      "bytes": 1061,
+      "sha256": "61f498176b451c424b17b2550bfa64800db695936e58e67dc05feff68fce69de"
+    },
+    {
+      "path": "tools/portable/runtime-notices/xsdk/THIRD_PARTY_NOTICES.md",
+      "bytes": 5459,
+      "sha256": "f92f9b39349dd6aad17351729a9d3b87782d545e47c50ea8a2bfedb6f762868f"
+    },
+    {
+      "path": "tools/portable/xp_assets.py",
+      "bytes": 18864,
+      "sha256": "20669568296b242204729f2129c95434079b053b0f1c415b5c9e79d1abfd23b5"
+    }
+  ],
+  "creator_revision": 3
+}

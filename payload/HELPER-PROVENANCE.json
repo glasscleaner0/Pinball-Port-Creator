@@ -1,0 +1,11 @@
+{
+  "helper_source_url": "https://github.com/ip7z/7zip/releases/download/26.06/lzma2606.7z",
+  "sdk_sha256": "1d9da340870b12712e9068be178a4436fbad785486b62aed6e2aa88ea1e3bb65",
+  "member": "bin/x64/7zr.exe",
+  "helper_sha256": "fe66e92b57b88a80585d50e194572b33edde4a4af8a0d33e83801f9fa37e8a4e",
+  "helper_bytes": 931328,
+  "sdk_license_reference": "LZMA-SDK-NOTICE.txt",
+  "source_archive": "LZMA-SDK-26.06.7z",
+  "official_license_page": "https://www.7-zip.org/sdk.html",
+  "xex_sha256": "fc389d132b474eca8085ca91d62f0962a5e61758255c766be68745ed57ae8310"
+}

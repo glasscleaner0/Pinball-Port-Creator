@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "scope": "Retained runtime notices for reviewed Pinball0.0.15 dependency set; source SDK/compiler versions are pinned by bootstrap. New code uses GPL-3.0-only; XP assets remain separate.",
+  "files": [
+    {
+      "path": "runtime-notices/xsdk/LICENSE",
+      "output_path": "notices/xsdk/LICENSE",
+      "sha256": "61f498176b451c424b17b2550bfa64800db695936e58e67dc05feff68fce69de",
+      "id": "xsdk_mit"
+    },
+    {
+      "path": "runtime-notices/xsdk/THIRD_PARTY_NOTICES.md",
+      "output_path": "notices/xsdk/THIRD_PARTY_NOTICES.md",
+      "sha256": "f92f9b39349dd6aad17351729a9d3b87782d545e47c50ea8a2bfedb6f762868f",
+      "id": "xsdk_third_party"
+    },
+    {
+      "path": "runtime-notices/gcc-15.3.0/COPYING.RUNTIME",
+      "output_path": "notices/gcc-15.3.0/COPYING.RUNTIME",
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+      "id": "gcc_runtime_exception"
+    },
+    {
+      "path": "runtime-notices/gcc-15.3.0/COPYING3",
+      "output_path": "notices/gcc-15.3.0/COPYING3",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "id": "gcc_gpl3"
+    },
+    {
+      "path": "runtime-notices/gcc-15.3.0/COPYING",
+      "output_path": "notices/gcc-15.3.0/COPYING",
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c",
+      "id": "gcc_gpl2"
+    },
+    {
+      "path": "runtime-notices/gcc-15.3.0/COPYING.LIB",
+      "output_path": "notices/gcc-15.3.0/COPYING.LIB",
+      "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861",
+      "id": "gcc_lgpl21_provided"
+    },
+    {
+      "path": "runtime-notices/gcc-15.3.0/COPYING3.LIB",
+      "output_path": "notices/gcc-15.3.0/COPYING3.LIB",
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c",
+      "id": "gcc_lgpl3_provided"
+    },
+    {
+      "path": "runtime-notices/newlib-4.6.0.20260123/COPYING.NEWLIB",
+      "output_path": "notices/newlib-4.6.0.20260123/COPYING.NEWLIB",
+      "sha256": "f3afe48e4bc6ed8466a42e9dacb6be1d8f9cbf5aac15cb8e474a5ccde8b40ef6",
+      "id": "newlib_aggregate"
+    },
+    {
+      "path": "runtime-notices/boost/LICENSE_1_0.txt",
+      "output_path": "notices/boost/LICENSE_1_0.txt",
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+      "id": "boost_software_license_1_0"
+    },
+    {
+      "path": "runtime-notices/gcc-15.3.0/libiberty-cp-demangle-NOTICE.txt",
+      "output_path": "notices/gcc-15.3.0/libiberty-cp-demangle-NOTICE.txt",
+      "sha256": "ec6118ee6bb65004cfa7e6ba97b00d94b12154666b04a9f45a0752528567f4b6",
+      "id": "libiberty_demangler_header"
+    },
+    {
+      "path": "runtime-notices/gcc-15.3.0/libstdcpp-stl_algobase-NOTICE.txt",
+      "output_path": "notices/gcc-15.3.0/libstdcpp-stl_algobase-NOTICE.txt",
+      "sha256": "36d60d407fa2aae497ae58c467829d8879780c21b5a0679e536717cb82593fb7",
+      "id": "libstdcpp_algorithm_header"
+    },
+    {
+      "path": "runtime-notices/newlib-4.6.0.20260123/newlib-libm-fmax-NOTICE.txt",
+      "output_path": "notices/newlib-4.6.0.20260123/newlib-libm-fmax-NOTICE.txt",
+      "sha256": "bfaf38eec3c76e3a2a3a6899d7862e0a75a54ab63698a7ed895dc710305ce2db",
+      "id": "newlib_fmax_header"
+    },
+    {
+      "path": "runtime-notices/newlib-4.6.0.20260123/newlib-libm-fpclassify-NOTICE.txt",
+      "output_path": "notices/newlib-4.6.0.20260123/newlib-libm-fpclassify-NOTICE.txt",
+      "sha256": "a91953029573c3778146c85b52bc817accecd179c7e5955060e708831757e970",
+      "id": "newlib_fpclassify_header"
+    },
+    {
+      "path": "runtime-notices/gcc-15.3.0/libstdcpp-shared_ptr-NOTICE.txt",
+      "output_path": "notices/gcc-15.3.0/libstdcpp-shared_ptr-NOTICE.txt",
+      "sha256": "5fefc1789f96c25c8fca22d6c03c3d1f5820865336c10e54fc991c441b0dcdf9",
+      "id": "libstdcpp_shared_ptr_header"
+    },
+    {
+      "path": "runtime-notices/gcc-15.3.0/libstdcpp-memory-NOTICE.txt",
+      "output_path": "notices/gcc-15.3.0/libstdcpp-memory-NOTICE.txt",
+      "sha256": "7c756a0988c4d83acf88708d9a56ebe99264b3024e4f94c010eb05641990384c",
+      "id": "libstdcpp_memory_header"
+    }
+  ]
+}
